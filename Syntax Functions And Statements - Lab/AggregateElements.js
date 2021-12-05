@@ -3,11 +3,10 @@ function aggregate(array = []){
     let sumInverse = 0;
     let concat = "";
 
-    for(let i = 0; i < array.length; i++){
-        sum += array[i];
-        sumInverse += 1/array[i];
-        concat += String(array[i]);
-    }
+    sum = array.reduce((partSum, a) => partSum + a, 0);
+    sumInverse = array.reduce((partSum, a) => partSum + 1/a, 0);
+    concat = array.join("");
+    
     console.log(sum);
     console.log(sumInverse);
     console.log(concat);
