@@ -6,8 +6,7 @@ function equalNeighbours(matrix) {
                 if (matrix[i][j] === matrix[i][j + 1]) {
                     pairsCount++;
                 }
-            }
-            else {
+            } else {
                 if (matrix[i][j] === matrix[i + 1][j]) {
                     pairsCount++;
                 }
