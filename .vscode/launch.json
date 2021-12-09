@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Arrays And Nested Arrays - Exercise\\DiagonalAttack.js"
+            "program": "${workspaceFolder}\\Arrays And Nested Arrays - Exercise\\SpiralMatrix.js"
         }
     ]
 }
