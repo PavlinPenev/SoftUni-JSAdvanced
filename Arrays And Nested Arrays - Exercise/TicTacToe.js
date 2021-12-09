@@ -22,10 +22,7 @@ function ticTacToe(moves = []){
             }
             fieldMatrix[rowIdx][colIdx] = playerOnMove;
             for(let i = 0; i < 3; i++){
-                if(checkColumn(i, fieldMatrix)){
-                    isVictory = true;
-                }
-                if(checkRow(i, fieldMatrix)){
+                if(checkColumn(i, fieldMatrix) || checkRow(i, fieldMatrix) ){
                     isVictory = true;
                 }
             }
@@ -91,7 +88,7 @@ function ticTacToe(moves = []){
         }
         return false;
     }
-    
+
     function switchPlayer(player){
         return player === 'X' ? 'O' : 'X';
     }
