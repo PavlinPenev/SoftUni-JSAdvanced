@@ -44,12 +44,14 @@ function ticTacToe(moves = []){
     console.log(`${fieldMatrix[0][0]}\t${fieldMatrix[0][1]}\t${fieldMatrix[0][2]}`);
     console.log(`${fieldMatrix[1][0]}\t${fieldMatrix[1][1]}\t${fieldMatrix[1][2]}`);
     console.log(`${fieldMatrix[2][0]}\t${fieldMatrix[2][1]}\t${fieldMatrix[2][2]}`);
+
     function validateIndexes(row, col){
         if(row >= 0 && row < 3 && col >= 0 && col < 3){
             return true;
         }
         return false;
     }
+
     function checkColumn(colIndex, array = []){
         if(array[0][colIndex] === 'X' && array[1][colIndex] === 'X' && array[2][colIndex] === 'X') {
             return true;
@@ -59,6 +61,7 @@ function ticTacToe(moves = []){
         }
         return false;
     }
+
     function checkRow(rowIndex, array = []){
         if(array[rowIndex][0] === 'X' && array[rowIndex][1] === 'X' && array[rowIndex][2] === 'X'){
             return true;
@@ -68,6 +71,7 @@ function ticTacToe(moves = []){
         }
         return false;
     }
+
     function checkLeftDiagonal(array = []){
         if(array[0][0] === 'X' && array[1][1] === 'X' && array[2][2] === 'X'){
             return true;
@@ -77,6 +81,7 @@ function ticTacToe(moves = []){
         }
         return false;
     }
+
     function checkRightDiagonal(array = []){
         if(array[0][2] === 'X' && array[1][1] === 'X' && array[2][0] === 'X'){
             return true;
@@ -86,6 +91,7 @@ function ticTacToe(moves = []){
         }
         return false;
     }
+    
     function switchPlayer(player){
         return player === 'X' ? 'O' : 'X';
     }
