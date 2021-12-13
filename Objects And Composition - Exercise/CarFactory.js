@@ -22,7 +22,7 @@ function carFactory(obj) {
         case obj.power <= 120:
             chosenEngine = normalEngine;
             break;
-        case obj.power > 120 && obj.wheelsize <= 200:
+        case obj.power > 120:
             chosenEngine = monsterEngine;
             break;
     }
