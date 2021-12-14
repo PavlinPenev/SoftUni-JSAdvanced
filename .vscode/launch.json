@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Objects And Composition - Exercise\\LowestPricesInCities.js"
+            "program": "${workspaceFolder}\\Objects And Composition - Exercise\\SortedList.js"
         }
     ]
 }
