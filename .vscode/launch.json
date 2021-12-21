@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\DOM Introduction\\02.Collect List Items\\CollectListItems.js"
+            "program": "${workspaceFolder}\\DOM Introduction - Exercise\\07. Hell's Kitchen\\app.js"
         }
     ]
 }
