@@ -27,9 +27,7 @@ function solve() {
         document.getElementById('result').value = result;
     
     }
-    
+
     const btn = document.getElementsByTagName('button')[0];
     btn.onclick = convert;
 }
-
-
