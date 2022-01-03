@@ -9,6 +9,7 @@ function sameNumbers(number){
             areSame = false
             break;
         }
+        number %= 10;
     }
     console.log(areSame);
     console.log(sumOfNumbers);
