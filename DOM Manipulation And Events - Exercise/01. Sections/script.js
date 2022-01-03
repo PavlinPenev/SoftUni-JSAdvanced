@@ -8,7 +8,7 @@ function create(words) {
 
       const div = document.createElement('div');
       div.appendChild(paragraph);
-      div.addEventListener('click', (ev) => ev.target.children[0].style = 'block');
+      div.addEventListener('click', (ev) => ev.target.children[0].style.display = 'block');
 
       document.getElementById('content').appendChild(div);
 
