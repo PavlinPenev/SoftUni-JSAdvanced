@@ -9,10 +9,11 @@ function sameNumbers(number){
             areSame = false
             break;
         }
-        number %= 10;
+        number = Math.floor(number / 10);
     }
     console.log(areSame);
     console.log(sumOfNumbers);
 }
 sameNumbers(2222222);
-sameNumbers(1234);
+console.log('=========================');
+sameNumbers(232);
