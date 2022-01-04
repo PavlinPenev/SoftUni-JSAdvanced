@@ -15,5 +15,5 @@ function sameNumbers(number){
     console.log(sumOfNumbers);
 }
 sameNumbers(2222222);
-console.log('=========================');
 sameNumbers(232);
+sameNumbers(1234);
