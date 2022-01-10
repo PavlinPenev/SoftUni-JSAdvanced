@@ -1,12 +1,15 @@
 function solution() {
 
     const recipes = {
+
         "apple":  new Map(),
         "lemonade": new Map(),
         "burger": new Map(),
         "eggs": new Map(),
         "turkey": new Map()
+        
     };
+
     recipes.apple.set("carbohydrate", 1);
     recipes.apple.set("flavour", 2);
     recipes.lemonade.set("carbohydrate", 10);
