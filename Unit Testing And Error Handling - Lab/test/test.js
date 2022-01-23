@@ -1,7 +1,6 @@
 const { expect } = require('chai');
 const sum = require('./sumOfNumbers');
 const isSymmetric = require('./checkSymmetry');
-const exp = require('constants');
 
 describe('Sum Of Numbers Tests', () => {
 
