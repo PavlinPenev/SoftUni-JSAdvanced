@@ -22,7 +22,7 @@ function manageTicketsDb(ticketsArray, sortCriteria) {
 
     });
 
-    return sortCriteria === 'price' ?sortedArray.sort((a, b) => a - b) : sortedArray.sort((a, b) => a[sortCriteria].localeCompare(b[sortCriteria]));
+    return sortCriteria === 'price' ?sortedArray.sort((a, b) => a[sortCriteria] - b[sortCriteria]) : sortedArray.sort((a, b) => a[sortCriteria].localeCompare(b[sortCriteria]));
 }
 
 console.log(manageTicketsDb(['Philadelphia|94.20|available',
