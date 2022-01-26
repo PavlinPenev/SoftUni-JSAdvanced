@@ -1,5 +1,4 @@
 const {expect} = require('chai');
-const exp = require('constants');
 const PaymentPackage = require('./paymentPackage');
 const StringBuilder = require('./stringBuilder');
 
