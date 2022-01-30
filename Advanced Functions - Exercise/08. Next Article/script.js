@@ -1,7 +1,5 @@
 function getArticleGenerator(articles) {
-
-    let counterOfPage = -1;
-
+    
     function showNext() {
 
         if (articles.length > 0) {
