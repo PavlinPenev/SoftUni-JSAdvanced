@@ -90,12 +90,6 @@ function solution() {
 
   function continueFunc() {
 
-    Array.from(divBlock.children).forEach(c => {
-
-      c.remove();
-
-    });
-
     divBlock.innerHTML = '';
 
     //heading
