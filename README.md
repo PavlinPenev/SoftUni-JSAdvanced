@@ -1,5 +1,5 @@
 # SoftUni JavaScript Advanced course
-Problem Solultions repository for the tasks given in the course.
+Problem Solutions repository for the tasks given in the course.
 <p></p>
 <p>&ensp;&ensp;&ensp;&ensp;<img style="width: 40%" src="https://www.tutorialstonight.com/assets/js/javascript-object.webp">&ensp;&ensp;&ensp;&ensp;&ensp;
 <img style="width: 40%" src="https://devopedia.org/images/article/282/1930.1596042011.png">
